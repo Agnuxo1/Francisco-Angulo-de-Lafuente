@@ -1,0 +1,1485 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Francisco Angulo de Lafuente: Perfil Biográfico Completo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #64748b;
+            --accent: #0ea5e9;
+            --neutral: #f8fafc;
+            --base-100: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            overflow-x: hidden;
+        }
+
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .toc-fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 2rem 1.5rem;
+            box-shadow: 4px 0 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .main-content {
+            margin-left: 280px;
+            min-height: 100vh;
+            background: var(--neutral);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+            min-height: 60vh;
+        }
+
+        .bento-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+
+        .citation {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .citation:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .mermaid-container {
+            display: flex;
+            justify-content: center;
+            min-height: 300px;
+            max-height: 800px;
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mermaid-container .mermaid {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            cursor: grab;
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            touch-action: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .mermaid-container .mermaid svg {
+            max-width: 100%;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mermaid-container .mermaid:active {
+            cursor: grabbing;
+        }
+
+        .mermaid-container.zoomed .mermaid {
+            height: 100%;
+            width: 100%;
+            cursor: grab;
+        }
+
+        .mermaid-controls {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+            z-index: 20;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .mermaid-control-btn {
+            background: #ffffff;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            padding: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: #374151;
+            font-size: 14px;
+            min-width: 36px;
+            height: 36px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mermaid-control-btn:hover {
+            background: #f8fafc;
+            border-color: #3b82f6;
+            color: #3b82f6;
+            transform: translateY(-1px);
+        }
+
+        .mermaid-control-btn:active {
+            transform: scale(0.95);
+        }
+
+        .toc-link {
+            display: block;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .toc-link:hover, .toc-link.active {
+            color: white;
+            padding-left: 1rem;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent), transparent);
+            margin: 3rem 0;
+        }
+
+        .timeline-item {
+            border-left: 3px solid var(--accent);
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+
+        .work-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--accent);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .work-card:hover {
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 1024px) {
+            .toc-fixed {
+                transform: translateX(-100%);
+            }
+            .toc-fixed.open {
+                transform: translateX(0);
+            }
+            .main-content {
+                margin-left: 0;
+            }
+            .hero-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .mermaid-control-btn:not(.reset-zoom) {
+                display: none;
+            }
+            .mermaid-controls {
+                top: auto;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-grid h1 {
+                font-size: 2.5rem;
+            }
+            .hero-grid h1 span {
+                font-size: 1.5rem;
+            }
+            .bento-card {
+                padding: 1rem;
+            }
+            .mermaid-container {
+                padding: 15px;
+            }
+            .timeline-item {
+                padding-left: 1rem;
+            }
+            .bento-card img {
+                height: auto;
+                max-height: 200px;
+            }
+        }
+    </style>
+  </head>
+
+  <body>
+    <!-- Table of Contents -->
+    <nav class="toc-fixed">
+      <div class="text-white mb-8">
+        <h2 class="text-xl font-bold mb-4">Índice</h2>
+      </div>
+      <a href="#hero" class="toc-link">Inicio</a>
+      <a href="#biografia" class="toc-link">Información Biográfica</a>
+      <a href="#formacion" class="toc-link">Formación Académica</a>
+      <a href="#trayectoria" class="toc-link">Trayectoria Profesional</a>
+      <a href="#literatura" class="toc-link">Carrera Literaria</a>
+      <a href="#euhnn" class="toc-link">Proyecto EUHNN</a>
+      <a href="#personal" class="toc-link">Aspectos Personales</a>
+      <a href="#reconocimientos" class="toc-link">Reconocimientos</a>
+      <a href="#proyectos" class="toc-link">Proyectos Actuales</a>
+    </nav>
+
+    <!-- Mobile TOC Toggle -->
+    <button id="toc-toggle" class="lg:hidden fixed top-4 left-4 z-50 bg-blue-900 text-white p-3 rounded-full shadow-lg">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Overlay for closing TOC -->
+    <div id="toc-overlay" class="fixed inset-0 bg-black/50 z-40 hidden lg:hidden"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section id="hero" class="bg-gradient-to-br from-slate-50 to-blue-50 py-16 px-8">
+        <div class="max-w-7xl mx-auto">
+          <div class="hero-grid">
+            <div class="space-y-8">
+              <div class="space-y-4">
+                <h1 class="serif text-5xl font-bold text-gray-900 leading-tight">
+                  <span class="italic text-blue-900">Francisco</span>
+                  <br/>
+                  <span class="text-4xl">Angulo de Lafuente</span>
+                </h1>
+                <p class="text-xl text-gray-600 italic">
+                  Escritor, programador e investigador español
+                </p>
+              </div>
+
+              <div class="grid grid-cols-3 gap-4 text-center">
+                <div class="bg-white rounded-lg p-4 shadow-sm">
+                  <div class="text-2xl font-bold text-blue-900">39</div>
+                  <div class="text-sm text-gray-600">Obras publicadas</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm">
+                  <div class="text-2xl font-bold text-blue-900">2005</div>
+                  <div class="text-sm text-gray-600">Primera patente</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm">
+                  <div class="text-2xl font-bold text-blue-900">3</div>
+                  <div class="text-sm text-gray-600">Idiomas de traducción</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <img src="https://kimi-web-img.moonshot.cn/img/static.vecteezy.com/bf73857010b8e036a38c7c3d702cdaf69488380c.jpg" alt="Escritorio de investigador con libros y computadora" class="w-full h-64 object-cover rounded-lg mb-4" size="medium" aspect="wide" style="photo" query="escritorio investigador libros computadora" referrerpolicy="no-referrer" data-modified="1" data-score="11598.00"/>
+              <blockquote class="text-lg italic text-gray-700 border-l-4 border-blue-200 pl-4">
+                &#34;Una nueva voz cautivadora en la ficción especulativa&#34;
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Biographical Information -->
+      <section id="biografia" class="py-16 px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Información Biográfica Básica</h2>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+              <div class="timeline-item">
+                <h3 class="font-semibold text-lg mb-2">Nacimiento y Orígenes</h3>
+                <p class="text-gray-700">
+                  <strong>Francisco Angulo de Lafuente</strong> nació en <strong>Madrid, España, en 1976</strong>
+                  <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                  <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>.
+                  Su nacimiento durante la transición española lo sitúa en una generación testigo de importantes cambios sociales y tecnológicos.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <h3 class="font-semibold text-lg mb-2">Nacionalidad</h3>
+                <p class="text-gray-700">
+                  Posee <strong>nacionalidad española</strong>
+                  <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                  <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[542]</a>,
+                  habiendo desarrollado su formación académica y la mayor parte de su carrera profesional y literaria en España.
+                </p>
+              </div>
+            </div>
+
+            <div class="space-y-6">
+              <div class="timeline-item">
+                <h3 class="font-semibold text-lg mb-2">Residencia Actual</h3>
+                <p class="text-gray-700">
+                  Actualmente reside en <strong>Fuenlabrada, área metropolitana de Madrid</strong>
+                  <a href="https://forums.developer.nvidia.com/t/winner-nvidia-and-llamaindex-developers-2024/317943" class="citation" target="_blank">[434]</a>,
+                  <a href="https://www.everand.com/book/666429165/Lazarus-rip" class="citation" target="_blank">[501]</a>,
+                  manteniendo una conexión con la región donde desarrolló su carrera.
+                </p>
+              </div>
+
+              <div class="bg-blue-50 p-6 rounded-lg">
+                <h4 class="font-semibold text-blue-900 mb-3">Contexto Generacional</h4>
+                <p class="text-blue-800 text-sm">
+                  Nacer en 1976 lo sitúa en la generación que creció durante la transición española a la democracia,
+                  siendo testigo de importantes cambios tecnológicos que influyeron en su enfoque innovador.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Academic Background -->
+      <section id="formacion" class="py-16 px-8 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Formación Académica</h2>
+
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <div class="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 class="text-xl font-semibold mb-4 text-blue-900">Universidad Politécnica de Madrid</h3>
+                <p class="text-gray-700 mb-4">
+                  Cursó sus estudios superiores en la prestigiosa <strong>Universidad Politécnica de Madrid (UPM)</strong>
+                  <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                  <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>,
+                  donde desarrolló una formación dual que marcaría su trayectoria profesional.
+                </p>
+
+                <div class="space-y-3">
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-microchip text-blue-600"></i>
+                    <span class="font-medium">Ingeniería Informática</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-dna text-green-600"></i>
+                    <span class="font-medium">Biotecnología</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-blue-50 to-green-50 p-6 rounded-lg">
+                <h4 class="font-semibold text-gray-900 mb-3">Perfil Interdisciplinario</h4>
+                <p class="text-gray-700 text-sm mb-4">
+                  Esta combinación única de disciplinas le proporcionó habilidades en programación,
+                  algoritmos y pensamiento computacional, junto con conocimientos profundos en
+                  biología molecular, genética y microbiología.
+                </p>
+                <p class="text-gray-600 text-sm italic">
+                  &#34;Una formación que convergería en su carrera posterior como investigador y escritor&#34;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Professional Career -->
+      <section id="trayectoria" class="py-16 px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Trayectoria Profesional</h2>
+
+          <div class="grid lg:grid-cols-3 gap-8">
+            <!-- Biocombustibles -->
+            <div class="work-card">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-leaf text-green-600 text-2xl mr-3"></i>
+                <h3 class="text-xl font-semibold">Investigación en Biocombustibles</h3>
+              </div>
+              <p class="text-gray-700 mb-3">
+                Destacado investigador en <strong>biocombustibles de segunda generación</strong>
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                <a href="https://www.bubok.es/autores/angulo/actividad" class="citation" target="_blank">[404]</a>,
+                centrado en el desarrollo de fuentes de energía renovables y sostenibles.
+              </p>
+              <div class="text-sm text-gray-600">
+                <strong>Enfoque:</strong> Materias primas que no compiten con la cadena alimentaria
+              </div>
+            </div>
+
+            <!-- Proyecto Ecofa -->
+            <div class="work-card">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-flask text-blue-600 text-2xl mr-3"></i>
+                <h3 class="text-xl font-semibold">Proyecto Ecofa</h3>
+              </div>
+              <p class="text-gray-700 mb-3">
+                Como <strong>Director de Investigación del Proyecto Ecofa</strong>
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>,
+                desarrolló el primer biocombustible de segunda generación a partir de bacterias alimentadas con residuos orgánicos.
+              </p>
+              <div class="text-sm text-green-700 font-medium">
+                <i class="fas fa-award mr-1"></i>
+                Patente concedida en 2005
+              </div>
+            </div>
+
+            <!-- Programación y Biotecnología -->
+            <div class="work-card">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-code text-purple-600 text-2xl mr-3"></i>
+                <h3 class="text-xl font-semibold">Programación e Investigación</h3>
+              </div>
+              <p class="text-gray-700 mb-3">
+                Programador e investigador especializado en <strong>biotecnología</strong>
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                integrando principios biológicos y tecnológicos para desarrollar nuevos productos y procesos.
+              </p>
+              <div class="text-sm text-gray-600">
+                <strong>Áreas:</strong> Bioinformática, biología sintética, modelos computacionales
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline visual -->
+          <div class="mt-12">
+            <div class="mermaid-container">
+              <div class="mermaid-controls">
+                <button class="mermaid-control-btn zoom-in" title="??">
+                  <i class="fas fa-search-plus"></i>
+                </button>
+                <button class="mermaid-control-btn zoom-out" title="??">
+                  <i class="fas fa-search-minus"></i>
+                </button>
+                <button class="mermaid-control-btn reset-zoom" title="??">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                </button>
+                <button class="mermaid-control-btn fullscreen" title="????">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+              <div class="mermaid" id="timeline-chart">
+                timeline
+                title &#34;Trayectoria Profesional&#34;
+
+                2005 : &#34;Patente Proyecto Ecofa&#34;
+                : &#34;Primer biocombustible 2ª generación&#34;
+
+                2006 : &#34;Publicación de \&#34;La Reliquia\&#34;&#34;
+                : &#34;Debut literario exitoso&#34;
+
+                2008 : &#34;Libro \&#34;Ecofa\&#34;&#34;
+                : &#34;Experiencias en investigación&#34;
+
+                2010 : &#34;Publicación \&#34;Eco-fuel-FA\&#34;&#34;
+                : &#34;Divulgación científica&#34;
+
+                2024 : &#34;Concurso Nvidia EUHNN&#34;
+                : &#34;Participación y controversia&#34;
+
+                2025 : &#34;Próximas publicaciones&#34;
+                : &#34;The Obituarist, Artificial Breath&#34;
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Literary Career -->
+      <section id="literatura" class="py-16 px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Carrera Literaria</h2>
+
+          <div class="grid lg:grid-cols-2 gap-12">
+            <!-- Géneros y Temáticas -->
+            <div>
+              <h3 class="text-2xl font-semibold mb-6 text-gray-900">Géneros y Temáticas Principales</h3>
+
+              <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                  <h4 class="font-semibold text-lg mb-3 text-blue-900">Ciencia Ficción y Fantasía</h4>
+                  <p class="text-gray-700 mb-3">
+                    Su producción literaria se caracteriza por el predominio de la <strong>ciencia ficción y fantasía</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                    <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>,
+                    a menudo entrelazadas con temas medioambientales y tecnológicos.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Mundos imaginarios</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Temas ambientales</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Tecnología anticipatoria</span>
+                  </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                  <h4 class="font-semibold text-lg mb-3 text-gray-900">Influencias Literarias</h4>
+                  <p class="text-gray-700 mb-3">
+                    Influenciado por autores como <strong>Isaac Asimov y Stephen King</strong>
+                    <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>,
+                    <a href="https://www.goodreads.com/book/show/198394723-the-legend-of-the-tarazashi" class="citation" target="_blank">[154]</a>.
+                    Comparado con <strong>Jules Verne</strong> por su capacidad para anticipar desarrollos tecnológicos.
+                  </p>
+                </div>
+
+                <div class="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg">
+                  <h4 class="font-semibold text-gray-900 mb-3">Reconocimiento Internacional</h4>
+                  <p class="text-gray-700 text-sm">
+                    Su obra ha alcanzado audiencia internacional con <strong>traducciones a catalán, danés y rumano</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>,
+                    <a href="https://www.genialokal.de/Produkt/Francisco-Angulo-de-Lafuente/Shanghai-3_lid_54189081.html" class="citation" target="_blank">[1010]</a>,
+                    consolidándose como una &#34;nueva voz cautivadora&#34; en la ficción especulativa.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Obras destacadas -->
+            <div>
+              <h3 class="text-2xl font-semibold mb-6 text-gray-900">Obras Destacadas</h3>
+
+              <div class="space-y-4">
+                <div class="bg-white p-4 rounded-lg border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900">&#34;La Reliquia&#34; (2006)</h4>
+                  <p class="text-sm text-gray-600 mb-2">Novela debut - Ciencia Ficción</p>
+                  <p class="text-gray-700 text-sm">
+                    Recibió <strong>&#34;muy buenas críticas&#34;</strong>
+                    <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>,
+                    <a href="https://www.goodreads.com/book/show/198394723-the-legend-of-the-tarazashi" class="citation" target="_blank">[154]</a>,
+                    elogiada por su imaginativa construcción de mundo y trama de suspense.
+                  </p>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900">&#34;Ecofa&#34; (2008)</h4>
+                  <p class="text-sm text-gray-600 mb-2">Ensayo - Divulgación Científica</p>
+                  <p class="text-gray-700 text-sm">
+                    Relata sus experiencias en el <strong>Proyecto Ecofa</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                    <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>,
+                    combinando investigación científica con narrativa accesible.
+                  </p>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg border-l-4 border-purple-500">
+                  <h4 class="font-semibold text-purple-900">&#34;Shanghái 3&#34; (2024)</h4>
+                  <p class="text-sm text-gray-600 mb-2">Thriller Cyberpunk</p>
+                  <p class="text-gray-700 text-sm">
+                    Ambientada en 2076 en una colonia minera en Europa (luna de Júpiter),
+                    explorando un futuro distópico dominado por corporaciones
+                    <a href="https://www.todostuslibros.com/autor/francisco-angulo-lafuente" class="citation" target="_blank">[9]</a>,
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>.
+                  </p>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg border-l-4 border-red-500">
+                  <h4 class="font-semibold text-red-900">&#34;ApocalipsIA&#34; (2024)</h4>
+                  <p class="text-sm text-gray-600 mb-2">Ciencia Ficción - AGI</p>
+                  <p class="text-gray-700 text-sm">
+                    Exploración de la inteligencia general artificial situada en un <strong>Madrid devastado</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>,
+                    <a href="https://www.genialokal.de/Produkt/Francisco-Angulo-de-Lafuente/Shanghai-3_lid_54189081.html" class="citation" target="_blank">[1010]</a>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+                <p class="text-sm text-yellow-800">
+                  <i class="fas fa-info-circle mr-2"></i>
+                  <strong>Total de obras:</strong> Según fuentes, alcanza los <strong>39 trabajos publicados</strong>
+                  <a href="https://www.genialokal.de/Produkt/Francisco-Angulo-de-Lafuente/Shanghai-3_lid_54189081.html" class="citation" target="_blank">[1010]</a>,
+                  muchos de ellos traducidos a varios idiomas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- EUHNN Project -->
+      <section id="euhnn" class="py-16 px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Proyecto EUHNN y Controversia</h2>
+
+          <div class="space-y-8">
+            <!-- Participación en el concurso -->
+            <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg">
+              <h3 class="text-2xl font-semibold mb-4 text-gray-900">Concurso Nvidia y LlamaIndex 2024</h3>
+              <p class="text-gray-700 mb-4">
+                En 2024, Francisco Angulo de Lafuente participó en un concurso organizado por <strong>Nvidia y LlamaIndex Developers</strong>
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[135]</a>.
+                Su proyecto, denominado <strong>&#34;Enhanced Unified Holographic Neural Network (EUHNN)&#34;</strong>, fue inicialmente anunciado como ganador.
+              </p>
+              <div class="bg-white p-4 rounded-lg">
+                <h4 class="font-semibold text-gray-900 mb-2">Premio</h4>
+                <p class="text-gray-700">
+                  <i class="fas fa-trophy text-yellow-500 mr-2"></i>
+                  Tarjeta gráfica <strong>NVIDIA RTX 6000 Ada Generation</strong>
+                  <a href="https://forums.developer.nvidia.com/t/winner-nvidia-and-llamaindex-developers-2024/317943" class="citation" target="_blank">[409]</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Detalles del Proyecto -->
+            <div class="bg-white border border-gray-200 rounded-lg p-8">
+              <h3 class="text-2xl font-semibold mb-6 text-gray-900">Enhanced Unified Holographic Neural Network</h3>
+
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-lg mb-3 text-blue-900">Descripción Técnica</h4>
+                  <p class="text-gray-700 mb-4">
+                    EUHNN <strong>&#34;empuja los límites de la IA al impulsar una arquitectura novedosa inspirada en los principios de la computación óptica y la memoria holográfica&#34;</strong>
+                    <a href="https://huggingface.co/Agnuxo" class="citation" target="_blank">[577]</a>.
+                  </p>
+
+                  <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                      <i class="fas fa-lightbulb text-yellow-500"></i>
+                      <span class="text-sm">Simulación del comportamiento de la luz en redes neuronales ópticas virtuales</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                      <i class="fas fa-network-wired text-blue-500"></i>
+                      <span class="text-sm">Tecnologías NVIDIA: Ray Tracing, CUDA y RTX</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                      <i class="fas fa-sync text-green-500"></i>
+                      <span class="text-sm">Aprendizaje en tiempo real y transferencia de conocimientos P2P</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg mb-3 text-gray-900">Características Clave</h4>
+                  <ul class="space-y-2 text-sm text-gray-700">
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-check text-green-500 mt-1"></i>
+                      <span>Aprovecha tecnologías NVIDIA de vanguardia</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-check text-green-500 mt-1"></i>
+                      <span>Cálculos altamente paralelos y eficientes</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-check text-green-500 mt-1"></i>
+                      <span>Integración con LLMs (Large Language Models) externos</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-check text-green-500 mt-1"></i>
+                      <span>Intercambio de conocimientos P2P a través de WebRTC</span>
+                    </li>
+                  </ul>
+
+                  <div class="mt-4 p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-600">
+                      <strong>Repositorio:</strong>
+                      <a href="https://github.com/Agnuxo1/Unified-Holographic-Neural-Network" class="citation" target="_blank">GitHub</a>
+                      <a href="https://github.com/Agnuxo1/Unified-Holographic-Neural-Network" class="citation" target="_blank">[204]</a>,
+                      <a href="https://forums.developer.nvidia.com/t/winner-nvidia-and-llamaindex-developers-2024/317943" class="citation" target="_blank">[409]</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controversia -->
+            <div class="bg-red-50 border border-red-200 rounded-lg p-8">
+              <h3 class="text-2xl font-semibold mb-4 text-red-900">Controversia y Descalificación</h3>
+              <p class="text-gray-700 mb-4">
+                Tras el anuncio inicial como ganador, surgió una controversia que llevó a su <strong>descalificación</strong>
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[1]</a>,
+                <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[135]</a>.
+                Los organizadores, representados por JoAnn Peach de NVIDIA Developer Relations, solicitaron el código fuente del proyecto.
+              </p>
+
+              <div class="space-y-4">
+                <div class="bg-white p-4 rounded border-l-4 border-red-400">
+                  <h4 class="font-semibold text-red-800 mb-2">Secuencia de Eventos</h4>
+                  <ul class="text-sm text-gray-700 space-y-1">
+                    <li>• Solicitud de código fuente por parte de los organizadores</li>
+                    <li>• Angulo de Lafuente confirmó recepción y proporcionó información requerida</li>
+                    <li>• Insistió en haber subido todo el código a su repositorio de GitHub</li>
+                    <li>• Tras revisión del código, los organizadores procedieron a la descalificación</li>
+                  </ul>
+                </div>
+
+                <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+                  <p class="text-sm text-yellow-800">
+                    <i class="fas fa-exclamation-triangle mr-2"></i>
+                    <strong>Impacto:</strong> Esta situación generó una controversia pública, reflejada en artículos como &#34;Controversia en el concurso Nvidia: el caso de Francisco Angulo de Lafuente&#34;
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Personal Aspects -->
+      <section id="personal" class="py-16 px-8 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Aspectos Personales</h2>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-lg shadow-sm">
+              <h3 class="text-xl font-semibold mb-4 text-gray-900">Aficiones e Influencias</h3>
+              <p class="text-gray-700 mb-4">
+                Desde una edad temprana, mostró un gran entusiasmo por el <strong>cine y la literatura fantástica</strong>
+                <a href="https://bookhype.com/author/show/91576153-cafd-4cc7-b3d5-9c4497504f45/francisco-angulo-de-lafuente" class="citation" target="_blank">[94]</a>,
+                <a href="https://www.goodreads.com/book/show/198394723-the-legend-of-the-tarazashi" class="citation" target="_blank">[154]</a>.
+                Esta pasión se convirtió en una influencia formativa en su vida y carrera.
+              </p>
+
+              <div class="space-y-3">
+                <div class="flex items-center space-x-3">
+                  <img src="https://kimi-web-img.moonshot.cn/img/imgproxy.domestika.org/8c3f66f16a4b759cbc14d8ff4a8f2d16d63ad780.jpg" alt="Retrato de Isaac Asimov" class="w-12 h-12 rounded-full object-cover" size="small" aspect="square" style="photo" query="Isaac Asimov retrato" referrerpolicy="no-referrer" data-modified="1" data-score="11598.00"/>
+                  <div>
+                    <div class="font-medium">Isaac Asimov</div>
+                    <div class="text-sm text-gray-600">Creatividad sin límites en ciencia ficción</div>
+                  </div>
+                </div>
+
+                <div class="flex items-center space-x-3">
+                  <img src="https://kimi-web-img.moonshot.cn/img/styles.redditmedia.com/f6f7968d1cb13eb889ffbb558a625c2aba1ec792.png" alt="Retrato de Stephen King" class="w-12 h-12 rounded-full object-cover" size="small" aspect="square" style="photo" query="Stephen King retrato" referrerpolicy="no-referrer" data-modified="1" data-score="11599.00"/>
+                  <div>
+                    <div class="font-medium">Stephen King</div>
+                    <div class="text-sm text-gray-600">Maestría en suspense y terror</div>
+                  </div>
+                </div>
+              </div>
+
+              <blockquote class="mt-4 p-4 bg-blue-50 rounded border-l-4 border-blue-400">
+                <p class="text-blue-800 italic text-sm">
+                  &#34;Esta pasión de toda la vida por la fantasía y la ciencia ficción brilla a través de su escritura&#34;
+                </p>
+              </blockquote>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-sm">
+              <h3 class="text-xl font-semibold mb-4 text-gray-900">Dedicaciones Personales</h3>
+              <p class="text-gray-700 mb-4">
+                Aunque la información directa sobre su vida personal es escasa, es posible inferir aspectos a través de dedicatorias y contenido de sus obras.
+              </p>
+
+              <div class="space-y-4">
+                <div class="p-4 bg-pink-50 rounded-lg border border-pink-200">
+                  <h4 class="font-semibold text-pink-900 mb-2">&#34;Freak - El Circo de los Horrores&#34;</h4>
+                  <blockquote class="text-pink-800 italic text-sm">
+                    &#34;Para mi niña de ojos castaños, siempre te estaré esperando&#34;
+                  </blockquote>
+                  <p class="text-xs text-pink-700 mt-2">
+                    <a href="https://es.everand.com/book/665143785/Freak-El-Circo-de-los-Horrores" class="citation" target="_blank">[243]</a>
+                  </p>
+                </div>
+
+                <div class="p-4 bg-gray-100 rounded-lg">
+                  <h4 class="font-semibold text-gray-900 mb-2">&#34;El biógrafo de difuntos&#34;</h4>
+                  <p class="text-sm text-gray-700">
+                    El personaje principal se llama <strong>Frank Angulo de Lafuente</strong>, un escritor que vive en Fuenlabrada y ha experimentado fracasos literarios y personales
+                    <a href="https://www.everand.com/book/878425834/The-Obituarist" class="citation" target="_blank">[181]</a>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-4 p-4 bg-green-50 rounded-lg">
+                <p class="text-sm text-green-800">
+                  <i class="fas fa-book mr-2"></i>
+                  <strong>Inicios literarios:</strong> A los 17 años terminó su primer libro, un poemario, aunque no logró publicarlo en ese momento
+                  <a href="https://www.amazon.com.au/L%C3%81ZARO-RIP-Spanish-Francisco-Angulo-ebook/dp/B00L6G526E" class="citation" target="_blank">[498]</a>,
+                  <a href="https://www.amazon.com.au/L%C3%81ZARO-RIP-Spanish-Francisco-Angulo-ebook/dp/B00L6G526E" class="citation" target="_blank">[533]</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Achievements -->
+      <section id="reconocimientos" class="py-16 px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Reconocimientos y Logros</h2>
+
+          <div class="grid lg:grid-cols-3 gap-8">
+            <!-- Premios Científicos -->
+            <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-lg">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-award text-green-600 text-3xl mr-4"></i>
+                <h3 class="text-xl font-semibold text-green-900">Logros Científicos</h3>
+              </div>
+
+              <div class="space-y-4">
+                <div class="bg-white p-4 rounded border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">Proyecto Ecofa</h4>
+                  <p class="text-sm text-gray-700 mb-2">
+                    <strong>Patente en 2005</strong> por el desarrollo del primer biocombustible de segunda generación a partir de bacterias alimentadas con residuos orgánicos
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                    <a href="https://www.bubok.es/autores/angulo/actividad" class="citation" target="_blank">[404]</a>.
+                  </p>
+                  <div class="text-xs text-green-700">
+                    <i class="fas fa-certificate mr-1"></i>
+                    Director de Investigación
+                  </div>
+                </div>
+
+                <div class="bg-white p-4 rounded border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900 mb-2">Investigación Innovadora</h4>
+                  <p class="text-sm text-gray-700">
+                    Reconocido experto en biocombustibles de segunda generación y su aplicación en energías renovables sostenibles
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[597]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reconocimiento Literario -->
+            <div class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-lg">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-pen-fancy text-purple-600 text-3xl mr-4"></i>
+                <h3 class="text-xl font-semibold text-purple-900">Reconocimiento Literario</h3>
+              </div>
+
+              <div class="space-y-4">
+                <div class="bg-white p-4 rounded border-l-4 border-purple-500">
+                  <h4 class="font-semibold text-purple-900 mb-2">&#34;La Reliquia&#34; (2006)</h4>
+                  <p class="text-sm text-gray-700 mb-2">
+                    Novela debut que recibió <strong>&#34;muy buenas críticas&#34;</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                    <a href="https://www.lulu.com/shop/francisco-angulo-lafuente/los-mejores-the-best/ebook/product-17357281.html" class="citation" target="_blank">[469]</a>.
+                  </p>
+                  <div class="text-xs text-purple-700">
+                    <i class="fas fa-star mr-1"></i>
+                    Elogios por construcción de mundo y suspense
+                  </div>
+                </div>
+
+                <div class="bg-white p-4 rounded border-l-4 border-pink-500">
+                  <h4 class="font-semibold text-pink-900 mb-2">Reconocimiento Internacional</h4>
+                  <p class="text-sm text-gray-700">
+                    Obras traducidas a <strong>catalán, danés y rumano</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>,
+                    <a href="https://www.genialokal.de/Produkt/Francisco-Angulo-de-Lafuente/Shanghai-3_lid_54189081.html" class="citation" target="_blank">[1010]</a>,
+                    consolidándose como una &#34;nueva voz cautivadora&#34; en la ficción especulativa.
+                  </p>
+                </div>
+
+                <div class="bg-white p-4 rounded border-l-4 border-yellow-500">
+                  <h4 class="font-semibold text-yellow-900 mb-2">Finalista en Concursos</h4>
+                  <p class="text-sm text-gray-700">
+                    Posee <strong>tres diplomas</strong> que certifican su participación como finalista en concursos literarios, descrito irónicamente como &#34;ese cruel eufemismo para perdedor con mención de honor&#34;
+                    <a href="https://www.everand.com/book/878425834/The-Obituarist" class="citation" target="_blank">[362]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Impacto -->
+            <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-globe text-blue-600 text-3xl mr-4"></i>
+                <h3 class="text-xl font-semibold text-blue-900">Impacto del Trabajo</h3>
+              </div>
+
+              <div class="space-y-4">
+                <div class="bg-white p-4 rounded border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900 mb-2">Energías Renovables</h4>
+                  <p class="text-sm text-gray-700">
+                    Contribución al desarrollo de <strong>biocombustibles sostenibles</strong> con potencial para reducir la dependencia de combustibles fósiles y gestionar desechos orgánicos
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[597]</a>.
+                  </p>
+                </div>
+
+                <div class="bg-white p-4 rounded border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">Literatura con Conciencia</h4>
+                  <p class="text-sm text-gray-700">
+                    Popularización de la <strong>ciencia ficción con temas medioambientales</strong>, sirviendo como advertencia sobre las consecuencias de la degradación ambiental y el uso irresponsable de la tecnología
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[597]</a>.
+                  </p>
+                </div>
+
+                <div class="bg-white p-4 rounded border-l-4 border-orange-500">
+                  <h4 class="font-semibold text-orange-900 mb-2">Participación en EUHNN</h4>
+                  <p class="text-sm text-gray-700">
+                    Aunque controversial, su participación en el concurso Nvidia 2024 demuestra su <strong>compromiso continuo con la innovación tecnológica</strong> en inteligencia artificial y redes neuronales
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                    <a href="https://forums.developer.nvidia.com/t/winner-nvidia-and-llamaindex-developers-2024/317943" class="citation" target="_blank">[409]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Current Projects -->
+      <section id="proyectos" class="py-16 px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Obras Recientes y Proyectos Actuales</h2>
+
+          <div class="grid lg:grid-cols-2 gap-12">
+            <!-- Últimas Publicaciones -->
+            <div>
+              <h3 class="text-2xl font-semibold mb-6 text-gray-900">Últimas Publicaciones (2024-2025)</h3>
+
+              <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-blue-900">&#34;ApocalipsIA: The Day After AGI&#34;</h4>
+                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">2024</span>
+                  </div>
+                  <p class="text-sm text-gray-700 mb-2">
+                    Novela que aborda el tema de la <strong>inteligencia general artificial (AGI)</strong> situada en un Madrid devastado
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>,
+                    <a href="https://www.genialokal.de/Produkt/Francisco-Angulo-de-Lafuente/Shanghai-3_lid_54189081.html" class="citation" target="_blank">[1010]</a>.
+                  </p>
+                  <div class="text-xs text-blue-600">Género: Ciencia Ficción - AGI</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-purple-900">&#34;Star Wind: The Pyramid of Destiny&#34;</h4>
+                    <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">2024</span>
+                  </div>
+                  <p class="text-sm text-gray-700 mb-2">
+                    Aventura de ciencia ficción interplanetaria en el mundo alienígena de <strong>Zephyria</strong>
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>,
+                    <a href="https://www.genialokal.de/Produkt/Francisco-Angulo-de-Lafuente/Shanghai-3_lid_54189081.html" class="citation" target="_blank">[1010]</a>.
+                  </p>
+                  <div class="text-xs text-purple-600">Género: Ciencia Ficción - Aventura</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-indigo-500">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-indigo-900">&#34;Shanghái 3&#34;</h4>
+                    <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-xs">2024</span>
+                  </div>
+                  <p class="text-sm text-gray-700 mb-2">
+                    <strong>Thriller cyberpunk</strong> ambientado en 2076 en una colonia minera en Europa (luna de Júpiter)
+                    <a href="https://www.todostuslibros.com/autor/francisco-angulo-lafuente" class="citation" target="_blank">[9]</a>,
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[155]</a>.
+                  </p>
+                  <div class="text-xs text-indigo-600">Género: Cyberpunk - Thriller</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-green-900">&#34;The Obituarist&#34;</h4>
+                    <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">2025</span>
+                  </div>
+                  <p class="text-sm text-gray-700 mb-2">
+                    Novela que sigue a <strong>Frank Angulo de Lafuente</strong>, un escritor que redacta biografías póstumas
+                    <a href="https://www.audible.com/pd/El-biografo-de-difuntos-Audiobook/B0FDKW6BVV" class="citation" target="_blank">[180]</a>,
+                    <a href="https://www.everand.com/book/878425834/The-Obituarist" class="citation" target="_blank">[362]</a>.
+                  </p>
+                  <div class="text-xs text-green-600">Género: Suspense - Gótico</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyectos Actuales -->
+            <div>
+              <h3 class="text-2xl font-semibold mb-6 text-gray-900">Investigaciones y Desarrollos</h3>
+
+              <div class="space-y-6">
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-lg">
+                  <h4 class="font-semibold text-blue-900 mb-4">Inteligencia Artificial y Redes Neuronales</h4>
+                  <p class="text-gray-700 mb-4">
+                    Su participación en el <strong>concurso Nvidia y LlamaIndex Developers 2024</strong> con el proyecto EUHNN demuestra su interés continuo en el campo de la inteligencia artificial
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                    <a href="https://forums.developer.nvidia.com/t/winner-nvidia-and-llamaindex-developers-2024/317943" class="citation" target="_blank">[409]</a>.
+                  </p>
+
+                  <div class="bg-white p-4 rounded border border-blue-200">
+                    <h5 class="font-medium text-blue-900 mb-2">EUHNN - Enhanced Unified Holographic Neural Network</h5>
+                    <p class="text-sm text-gray-700">
+                      Aunque controversial, este proyecto representa casi un año de trabajo en arquitecturas novedosas de IA inspiradas en computación óptica y memoria holográfica
+                      <a href="https://huggingface.co/Agnuxo" class="citation" target="_blank">[577]</a>.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-lg">
+                  <h4 class="font-semibold text-green-900 mb-4">Continuación en Biotecnología</h4>
+                  <p class="text-gray-700 mb-4">
+                    Es plausible que siga explorando nuevas fronteras en la intersección entre ciencia, tecnología y medio ambiente,
+                    continuando su trabajo pionero en biocombustibles de segunda generación
+                    <a href="https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente" class="citation" target="_blank">[387]</a>,
+                    <a href="https://www.lulu.com/shop/francisco-angulo-lafuente/los-mejores-the-best/ebook/product-17357281.html" class="citation" target="_blank">[469]</a>.
+                  </p>
+
+                  <div class="space-y-2">
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-leaf text-green-600"></i>
+                      <span class="text-sm text-gray-700">Energías renovables sostenibles</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-recycle text-green-600"></i>
+                      <span class="text-sm text-gray-700">Gestión de residuos orgánicos</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-flask text-green-600"></i>
+                      <span class="text-sm text-gray-700">Biología sintética aplicada</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 class="font-semibold text-gray-900 mb-3">Próximos Lanzamientos Literarios</h4>
+                  <div class="space-y-3 text-sm">
+                    <div class="flex justify-between items-center">
+                      <span class="text-gray-700">&#34;Respiración Artificial&#34;</span>
+                      <span class="text-blue-600 font-medium">2025</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span class="text-gray-700">&#34;The Incredible Summer of 1989&#34;</span>
+                      <span class="text-blue-600 font-medium">2025</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span class="text-gray-700">&#34;Invaders: The Invasion Has Begun&#34;</span>
+                      <span class="text-blue-600 font-medium">2025</span>
+                    </div>
+                  </div>
+                  <p class="text-xs text-gray-600 mt-3">
+                    <a href="https://www.audible.com/search?searchAuthor=Francisco+Angulo+Lafuente" class="citation" target="_blank">[59]</a>,
+                    <a href="https://www.audible.com/search?searchAuthor=Francisco+Angulo+Lafuente" class="citation" target="_blank">[761]</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-8 p-6 bg-yellow-50 rounded-lg border border-yellow-200">
+                <h4 class="font-semibold text-yellow-900 mb-2">
+                  <i class="fas fa-lightbulb mr-2"></i>
+                  Innovación Continua
+                </h4>
+                <p class="text-sm text-yellow-800">
+                  Francisco Angulo de Lafuente mantiene un compromiso constante con la innovación,
+                  integrando su formación científica con su creatividad literaria para abordar los desafíos tecnológicos y ambientales del siglo XXI.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-12 px-8">
+        <div class="max-w-4xl mx-auto text-center">
+          <h3 class="serif text-2xl font-bold mb-4">Francisco Angulo de Lafuente</h3>
+          <p class="text-gray-300 mb-6">
+            Escritor, programador e investigador español cuya obra abarca desde la literatura de ciencia ficción
+            hasta la investigación pionera en biocombustibles y tecnologías emergentes.
+          </p>
+          <div class="flex justify-center space-x-6 text-sm text-gray-400">
+            <span>Nacimiento: 1976, Madrid</span>
+            <span>•</span>
+            <span>Obras publicadas: 39+</span>
+            <span>•</span>
+            <span>Idiomas: 3+</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+        // Initialize Mermaid
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                primaryColor: '#1e3a8a',
+                primaryTextColor: '#1e293b',
+                primaryBorderColor: '#0ea5e9',
+                lineColor: '#64748b',
+                sectionBkgColor: '#f8fafc',
+                altSectionBkgColor: '#ffffff',
+                gridColor: '#e2e8f0',
+                secondaryColor: '#ffffff',
+                tertiaryColor: '#f1f5f9'
+            },
+            timeline: {
+                numberSectionStyles: 4
+            }
+        });
+
+        // Initialize Mermaid Controls for zoom and pan
+        function initializeMermaidControls() {
+            const containers = document.querySelectorAll('.mermaid-container');
+
+            containers.forEach(container => {
+            const mermaidElement = container.querySelector('.mermaid');
+            let scale = 1;
+            let isDragging = false;
+            let startX, startY, translateX = 0, translateY = 0;
+
+            // ??????
+            let isTouch = false;
+            let touchStartTime = 0;
+            let initialDistance = 0;
+            let initialScale = 1;
+            let isPinching = false;
+
+            // Zoom controls
+            const zoomInBtn = container.querySelector('.zoom-in');
+            const zoomOutBtn = container.querySelector('.zoom-out');
+            const resetBtn = container.querySelector('.reset-zoom');
+            const fullscreenBtn = container.querySelector('.fullscreen');
+
+            function updateTransform() {
+                mermaidElement.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+
+                if (scale > 1) {
+                container.classList.add('zoomed');
+                } else {
+                container.classList.remove('zoomed');
+                }
+
+                mermaidElement.style.cursor = isDragging ? 'grabbing' : 'grab';
+            }
+
+            if (zoomInBtn) {
+                zoomInBtn.addEventListener('click', () => {
+                scale = Math.min(scale * 1.25, 4);
+                updateTransform();
+                });
+            }
+
+            if (zoomOutBtn) {
+                zoomOutBtn.addEventListener('click', () => {
+                scale = Math.max(scale / 1.25, 0.3);
+                if (scale <= 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+                updateTransform();
+                });
+            }
+
+            if (resetBtn) {
+                resetBtn.addEventListener('click', () => {
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                updateTransform();
+                });
+            }
+
+            if (fullscreenBtn) {
+                fullscreenBtn.addEventListener('click', () => {
+                if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                } else if (container.msRequestFullscreen) {
+                    container.msRequestFullscreen();
+                }
+                });
+            }
+
+            // Mouse Events
+            mermaidElement.addEventListener('mousedown', (e) => {
+                if (isTouch) return; // ???????,??????
+
+                isDragging = true;
+                startX = e.clientX - translateX;
+                startY = e.clientY - translateY;
+                mermaidElement.style.cursor = 'grabbing';
+                updateTransform();
+                e.preventDefault();
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging && !isTouch) {
+                translateX = e.clientX - startX;
+                translateY = e.clientY - startY;
+                updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                if (isDragging && !isTouch) {
+                isDragging = false;
+                mermaidElement.style.cursor = 'grab';
+                updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseleave', () => {
+                if (isDragging && !isTouch) {
+                isDragging = false;
+                mermaidElement.style.cursor = 'grab';
+                updateTransform();
+                }
+            });
+
+            // ?????????
+            function getTouchDistance(touch1, touch2) {
+                return Math.hypot(
+                touch2.clientX - touch1.clientX,
+                touch2.clientY - touch1.clientY
+                );
+            }
+
+            // Touch Events - ??????
+            mermaidElement.addEventListener('touchstart', (e) => {
+                isTouch = true;
+                touchStartTime = Date.now();
+
+                if (e.touches.length === 1) {
+                // ????
+                isPinching = false;
+                isDragging = true;
+
+                const touch = e.touches[0];
+                startX = touch.clientX - translateX;
+                startY = touch.clientY - translateY;
+
+                } else if (e.touches.length === 2) {
+                // ????
+                isPinching = true;
+                isDragging = false;
+
+                const touch1 = e.touches[0];
+                const touch2 = e.touches[1];
+                initialDistance = getTouchDistance(touch1, touch2);
+                initialScale = scale;
+                }
+
+                e.preventDefault();
+            }, { passive: false });
+
+            mermaidElement.addEventListener('touchmove', (e) => {
+                if (e.touches.length === 1 && isDragging && !isPinching) {
+                // ????
+                const touch = e.touches[0];
+                translateX = touch.clientX - startX;
+                translateY = touch.clientY - startY;
+                updateTransform();
+
+                } else if (e.touches.length === 2 && isPinching) {
+                // ????
+                const touch1 = e.touches[0];
+                const touch2 = e.touches[1];
+                const currentDistance = getTouchDistance(touch1, touch2);
+
+                if (initialDistance > 0) {
+                    const newScale = Math.min(Math.max(
+                    initialScale * (currentDistance / initialDistance),
+                    0.3
+                    ), 4);
+                    scale = newScale;
+                    updateTransform();
+                }
+                }
+
+                e.preventDefault();
+            }, { passive: false });
+
+            mermaidElement.addEventListener('touchend', (e) => {
+                // ????
+                if (e.touches.length === 0) {
+                isDragging = false;
+                isPinching = false;
+                initialDistance = 0;
+
+                // ????isTouch,??????????
+                setTimeout(() => {
+                    isTouch = false;
+                }, 100);
+                } else if (e.touches.length === 1 && isPinching) {
+                // ???????,???????
+                isPinching = false;
+                isDragging = true;
+
+                const touch = e.touches[0];
+                startX = touch.clientX - translateX;
+                startY = touch.clientY - translateY;
+                }
+
+                updateTransform();
+            });
+
+            mermaidElement.addEventListener('touchcancel', (e) => {
+                isDragging = false;
+                isPinching = false;
+                initialDistance = 0;
+
+                setTimeout(() => {
+                isTouch = false;
+                }, 100);
+
+                updateTransform();
+            });
+
+            // Enhanced wheel zoom with better center point handling
+            container.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const rect = container.getBoundingClientRect();
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                const newScale = Math.min(Math.max(scale * delta, 0.3), 4);
+
+                // Adjust translation to zoom towards center
+                if (newScale !== scale) {
+                const scaleDiff = newScale / scale;
+                translateX = translateX * scaleDiff;
+                translateY = translateY * scaleDiff;
+                scale = newScale;
+
+                if (scale <= 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+
+                updateTransform();
+                }
+            });
+
+            // Initialize display
+            updateTransform();
+            });
+        }
+
+        // Initialize mermaid controls
+        initializeMermaidControls();
+
+        // Smooth scrolling for TOC links
+        document.querySelectorAll('.toc-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Active TOC link highlighting
+        function updateActiveTocLink() {
+            const sections = document.querySelectorAll('section[id]');
+            const tocLinks = document.querySelectorAll('.toc-link');
+
+            let current = '';
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            tocLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveTocLink);
+        updateActiveTocLink(); // Initialize on load
+
+        // Mobile TOC toggle and overlay
+        const tocToggle = document.getElementById('toc-toggle');
+        const toc = document.querySelector('.toc-fixed');
+        const tocOverlay = document.getElementById('toc-overlay');
+
+        function toggleToc() {
+            toc.classList.toggle('open');
+            tocOverlay.classList.toggle('hidden');
+            document.body.classList.toggle('overflow-hidden');
+        }
+
+        tocToggle.addEventListener('click', toggleToc);
+
+        tocOverlay.addEventListener('click', function() {
+            toc.classList.remove('open');
+            tocOverlay.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        });
+
+        // Close TOC when clicking on links (mobile)
+        document.querySelectorAll('.toc-link').forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 1024) {
+                    toc.classList.remove('open');
+                    tocOverlay.classList.add('hidden');
+                    document.body.classList.remove('overflow-hidden');
+                }
+            });
+        });
+
+        // On window resize, if it becomes large screen, close the mobile TOC and hide overlay
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 1024) {
+                toc.classList.remove('open');
+                tocOverlay.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            }
+        });
+    </script>
+
+
+</body></html>
