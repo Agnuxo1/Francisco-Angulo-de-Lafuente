@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "source_commit": "8efed67",
+  "preserved_files": ["README.md", "LICENSE"],
+  "preservation_note": "Exact source files from the repository baseline before the 2.0.0 documentation and validation refresh."
+}
