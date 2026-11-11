@@ -4,6 +4,10 @@ An evidence-led public profile for the Spanish author, researcher and open-sourc
 
 This repository is a documentation project, not a scientific claim registry or an endorsement page. It separates public evidence from personal descriptions and avoids presenting unverified awards, performance claims, affiliations or quotations as established facts.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> This public profile brings research, engineering and literary references into a structured record with explicit evidence categories. A maintained source ledger and offline checks can reduce repeated fact-checking and make corrections easier to track. The <a href="docs/SOURCES.md">source ledger</a> is the central practical contribution: a reusable starting point for accurate attribution and informed discovery of the wider portfolio.</sub>
+<!-- impact-note:end -->
+
 ## At a glance
 
 - **Open-source focus:** AI systems, research tooling, reproducible experimentation and developer documentation.
